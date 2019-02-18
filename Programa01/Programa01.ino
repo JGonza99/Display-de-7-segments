@@ -37,8 +37,6 @@ void setup()
 //********** Loop *****************************************************************
 void loop()
 {
-  do 
-  {
       digitalWrite(A, HIGH);    
       digitalWrite(B, HIGH);    
       digitalWrite(C, HIGH);     
@@ -148,19 +146,5 @@ void loop()
       digitalWrite(Dot, HIGH);  
       
       delay(a);
-  }
-  while(digitalRead(Pols) == LOW);
-  
-   if(digitalRead(Pols) == HIGH);
-  {
-    digitalWrite(A, LOW);    
-      digitalWrite(B, LOW);    
-      digitalWrite(C, LOW);      
-      digitalWrite(D, LOW);    
-      digitalWrite(E, LOW);    
-      digitalWrite(F, LOW);   
-      digitalWrite(G, LOW);
-      digitalWrite(Dot, LOW);
-      while(digitalRead(Pols) == HIGH);
   }
 }
